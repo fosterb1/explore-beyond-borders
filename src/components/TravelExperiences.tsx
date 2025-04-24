@@ -2,7 +2,7 @@
 import React from 'react';
 import ExperienceCard from './ExperienceCard';
 import { Button } from "@/components/ui/button";
-import { Mountain, Beach, Compass, Map } from 'lucide-react';
+import { Mountain, Waves, Compass, Map } from 'lucide-react';
 
 const TravelExperiences = () => {
   const experiences = [
@@ -15,7 +15,7 @@ const TravelExperiences = () => {
     },
     {
       id: 2,
-      icon: <Beach className="h-6 w-6 text-white" />,
+      icon: <Waves className="h-6 w-6 text-white" />,
       title: "Beach Relaxation",
       description: "Unwind on pristine beaches with crystal-clear waters and golden sands.",
       color: "bg-secondary"
